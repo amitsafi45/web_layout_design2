@@ -5,3 +5,75 @@
     font-family: Arial;
 
 }
+#super{
+    width: 80%;
+    margin: auto;
+}
+
+#main-div{
+    width: 100%;
+    min-height: 50px;
+    background-color:lightgreen;
+    margin-bottom: 10px;
+}
+ #logo-div{
+    width: 50%;
+    min-height: 50px;
+    padding-left: 20px;
+    line-height: 50px;
+    float: left;
+}
+#nav-div{
+    width: 50%;
+    min-height: 50px;
+    line-height: 50px;
+    float: right;
+
+}    
+#header-banner{
+    width: 100%;
+    min-height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+#intro-text{
+   width: 100%;
+   min-height:80px;
+   background-color: lightgreen;
+   text-align: center;
+   line-height: 80px;
+   margin-bottom: 10px;
+}
+#main-box{
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 10px;
+}
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#main-box .box:nth-child(2){
+    margin-left:5%;
+    margin-right: 5%;
+}
+#main-box .box{
+    width: 30%;
+    min-height: 400px;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+    background-color: lightgreen;
+}
+#footer{
+    width: 100%;
+    background-color: lightgreen;
+    text-align: center;
+    min-height: 40px;
+    line-height: 40px;
+
+}
